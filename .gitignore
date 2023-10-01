@@ -1,0 +1,9 @@
+node_modules
+frontend
+server
+data
+public/styles/index.global.css.map
+public/index.js.map
+esbuild.config.js
+jest.config.ts
+package-lock.json
