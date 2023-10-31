@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../frontend/components/clock.js"],
+  "sourcesContent": ["export default class Clock extends HTMLElement {\n  constructor() {\n    super();\n    const shadowRoot = this.attachShadow({ mode: 'open' });\n    shadowRoot.innerHTML = `\n      <style>\n        time {\n          font-family: var(--font-family);\n          font-size: 18px;\n          display: inline-block;\n          max-width: min-content;\n          text-align: left;\n        } \n      </style>\n      <time></time>\n    `\n  }\n\n  connectedCallback() {\n    this.classList.add(\"hydrated\")\n    this.render()\n    setInterval(this.render, 1000);\n  }\n\n  render = () => {\n    this.shadowRoot.querySelector(\"time\").innerHTML = new Intl.DateTimeFormat('default',\n      {\n        hour12: true,\n        hour: 'numeric',\n        minute: 'numeric',\n        second: 'numeric'\n      }).format(new Date());\n  }\n}\n"],
+  "mappings": "wCAAA,IAAqBA,EAArB,cAAmC,WAAY,CAC7C,aAAc,CACZ,MAAM,EAsBRC,EAAA,cAAS,IAAM,CACb,KAAK,WAAW,cAAc,MAAM,EAAE,UAAY,IAAI,KAAK,eAAe,UACxE,CACE,OAAQ,GACR,KAAM,UACN,OAAQ,UACR,OAAQ,SACV,CAAC,EAAE,OAAO,IAAI,IAAM,CACxB,GA7BE,IAAMC,EAAa,KAAK,aAAa,CAAE,KAAM,MAAO,CAAC,EACrDA,EAAW,UAAY;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA,KAYzB,CAEA,mBAAoB,CAClB,KAAK,UAAU,IAAI,UAAU,EAC7B,KAAK,OAAO,EACZ,YAAY,KAAK,OAAQ,GAAI,CAC/B,CAWF",
+  "names": ["Clock", "__publicField", "shadowRoot"]
+}
