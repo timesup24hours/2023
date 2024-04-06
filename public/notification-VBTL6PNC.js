@@ -1,3 +1,0 @@
-import{f as r}from"./chunk-YTPAW67S.js";var a=".root { border-radius: 10px; background: white; padding: 20px; border: 2px solid var(--color-tertiary); }";var d=`<div part="root" class="root">
-  <slot></slot>
-</div>`;var o=class extends HTMLElement{constructor(){super();r(this,"willLoad",()=>{});r(this,"render",()=>{});let e=this.attachShadow({mode:"open"}),t=new CSSStyleSheet;t.replaceSync(a),e.adoptedStyleSheets=[t],e.innerHTML=d}static get observedAttributes(){return[]}attributeChangedCallback(e,t,c){}connectedCallback(){this.classList.add("hydrated"),this.willLoad(),this.render()}disconnectedCallback(){}};export{o as default};

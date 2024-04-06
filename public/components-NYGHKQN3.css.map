@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../frontend/react/components/codeEditor/index.local.scss"],
+  "sourcesContent": [".liveError {\n  background-color: rgb(254, 226, 226);\n  color: rgb(153, 27, 27);\n  border-radius: 4px;\n  padding: 16px;\n}"],
+  "mappings": "AAAA,CAACA,EACC,iBAAkB,QAClB,MAAO,QAFT,cAGiB,IAHjB,QAIW,IACX",
+  "names": ["liveError"]
+}
