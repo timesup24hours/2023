@@ -3,4 +3,4 @@ import"./chunk-O7IMYJUU.js";var W="* { margin: 0; padding: 0; border: 0; backgro
         <slot></slot>
       </menu>
     `}connectedCallback(){this.classList.add("hydrated"),this.addEventListener("keydown",d=>{if(d.key==="ArrowDown"||d.key==="ArrowUp"){let l=Array.from(this.querySelectorAll("huanlin-menu-item:not([disabled])")),b=l.indexOf(d.target);d.key==="ArrowDown"?b++:d.key==="ArrowUp"&&b--,b>=l.length&&(b=0),b<0&&(b=l.length-1),l[b]&&l[b].focus()}})}disconnectedCallback(){}attributeChangedCallback(d,l,b){}};export{t as default};
-//# sourceMappingURL=menu-CFVNAZLG.js.map
+//# sourceMappingURL=menu-TTPUYLUU.js.map
