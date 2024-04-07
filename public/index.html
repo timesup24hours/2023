@@ -22,4 +22,19 @@
 
 <script defer async src="./manifest.js"></script>
 <popup-element />
+<script>
+     window.navigation.addEventListener("navigate", (event) => {
+      console.log('navigate!', event);
+  })
+  window.addEventListener('popstate', function (event) {
+    // Log the state data to the console
+    console.log('popstate: ', event);
+  });
+  window.addEventListener('locationchange', function (e) {
+    console.log('location changed!', e);
+    });
+    setTimeout(() => {
+        window.history.pushState('page2', 'Title');
+    }, 5000)
+</script>
 </html>

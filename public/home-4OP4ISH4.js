@@ -1,11 +1,11 @@
 import{h as l}from"./chunk-O7IMYJUU.js";var c="#contact-link-containers a.contact-link:hover svg path { fill: var(--color-primary); display: flex; justify-content: space-between; height: 100%; flex: 1; } #expert { font-weight: 500; } /*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9Vc2Vycy9qYWNzdXJmaW5nL0Rlc2t0b3AvYXBwL2ZpcnN0L2Zyb250ZW5kL2NvbXBvbmVudHMvaG9tZS9pbmRleC5tb2R1bGUuc2NzcyIsIiUzQ2lucHV0JTIwY3NzJTIwWG12eFE5JTNFIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0VBQ0UsMEJBQUE7RUFDQSxhQUFBO0VBQ0EsOEJBQUE7RUFDQSxZQUFBO0VBQ0EsT0FBQTtBQ0NGOztBREVBO0VBQ0UsZ0JBQUE7QUNDRiIsImZpbGUiOiJ0by5jc3MiLCJzb3VyY2VzQ29udGVudCI6WyIjY29udGFjdC1saW5rLWNvbnRhaW5lcnMgYS5jb250YWN0LWxpbms6aG92ZXIgc3ZnIHBhdGgge1xuICBmaWxsOiB2YXIoLS1jb2xvci1wcmltYXJ5KTtcbiAgZGlzcGxheTogZmxleDtcbiAganVzdGlmeS1jb250ZW50OiBzcGFjZS1iZXR3ZWVuO1xuICBoZWlnaHQ6IDEwMCU7XG4gIGZsZXg6IDE7XG59XG5cbiNleHBlcnQge1xuICBmb250LXdlaWdodDogNTAwO1xufSIsIiNjb250YWN0LWxpbmstY29udGFpbmVycyBhLmNvbnRhY3QtbGluazpob3ZlciBzdmcgcGF0aCB7XG4gIGZpbGw6IHZhcigtLWNvbG9yLXByaW1hcnkpO1xuICBkaXNwbGF5OiBmbGV4O1xuICBqdXN0aWZ5LWNvbnRlbnQ6IHNwYWNlLWJldHdlZW47XG4gIGhlaWdodDogMTAwJTtcbiAgZmxleDogMTtcbn1cblxuI2V4cGVydCB7XG4gIGZvbnQtd2VpZ2h0OiA1MDA7XG59XG4vKiMgc291cmNlTWFwcGluZ1VSTD1kYXRhOmFwcGxpY2F0aW9uL2pzb247Y2hhcnNldD11dGYtODtiYXNlNjQsZXlKMlpYSnphVzl1SWpvekxDSnpiM1Z5WTJWU2IyOTBJam9pTDFWelpYSnpMMnBoWTNOMWNtWnBibWN2UkdWemEzUnZjQzloY0hBdlptbHljM1F2Wm5KdmJuUmxibVF2WTI5dGNHOXVaVzUwY3k5b2IyMWxJaXdpYzI5MWNtTmxjeUk2V3lKcGJtUmxlQzV0YjJSMWJHVXVjMk56Y3lKZExDSnVZVzFsY3lJNlcxMHNJbTFoY0hCcGJtZHpJam9pUVVGQlFUdEZRVU5GTzBWQlEwRTdSVUZEUVR0RlFVTkJPMFZCUTBFN096dEJRVWRHTzBWQlEwVWlMQ0p6YjNWeVkyVnpRMjl1ZEdWdWRDSTZXeUlqWTI5dWRHRmpkQzFzYVc1ckxXTnZiblJoYVc1bGNuTWdZUzVqYjI1MFlXTjBMV3hwYm1zNmFHOTJaWElnYzNabklIQmhkR2dnZTF4dUlDQm1hV3hzT2lCMllYSW9MUzFqYjJ4dmNpMXdjbWx0WVhKNUtUdGNiaUFnWkdsemNHeGhlVG9nWm14bGVEdGNiaUFnYW5WemRHbG1lUzFqYjI1MFpXNTBPaUJ6Y0dGalpTMWlaWFIzWldWdU8xeHVJQ0JvWldsbmFIUTZJREV3TUNVN1hHNGdJR1pzWlhnNklERTdYRzU5WEc1Y2JpTmxlSEJsY25RZ2UxeHVJQ0JtYjI1MExYZGxhV2RvZERvZ05UQXdPMXh1ZlNKZGZRPT0gKi8iXX0= */";var o=`<div id="main-content" class="flex flex-row flex-grow-1 gap">
   <div id="main-content-left" class="flex flex-column justify-space-between">
       <div>
-          <h1>The Javascript Developer.</h1>
-          <p id="location" class="text-tertiary">in the bay area</p>
+          <h1>The Javascript Developer</h1>
+          <!-- <p id="location" class="text-tertiary">in the bay area</p> -->
           <br />
           <strong class="text-tertiary" id="expert">Expert:</strong> 
-          <p>Typescript, React, Web-Component, Accessibility.</p>
+          <p>Web-Component, Accessibility.</p>
       </div>
       <div>
           <huanlin-carousel>
@@ -95,4 +95,4 @@ import{h as l}from"./chunk-O7IMYJUU.js";var c="#contact-link-containers a.contac
       </div>
   </div>
 </div>`;var i=class extends HTMLElement{constructor(){super();l(this,"render",()=>{})}connectedCallback(){this.classList.add("hydrated");let a=document.createElement("style");a.innerHTML=c,this.innerHTML=o,this.appendChild(a),this.render();let n=document.querySelector("#banner-center #title");n&&(n.innerHTML="Huanlin Huang");function e(r,h){let u=new Date(r);return new Date(h).getFullYear()-u.getFullYear()}let t=new Date().toISOString(),d=[{type:"React",value:e(new Date(2017,1,1),t),enabled:!0},{type:"Redux",value:e(new Date(2017,1,1),t),enabled:!0},{type:"JS",value:e(new Date(2017,1,1),t),enabled:!0},{type:"HTML",value:e(new Date(2017,1,1),t),enabled:!0},{type:"A11y",value:e(new Date(2020,1,1),t),enabled:!0},{type:"CSS",value:e(new Date(2017,1,1),t),enabled:!0},{type:"NodeJS",value:e(new Date(2020,1,1),t),enabled:!0}],s=this.querySelector("huanlin-donut");s&&s.setAttribute("data",JSON.stringify(d))}};l(i,"localName","huanlin-home");export{i as default};
-//# sourceMappingURL=home-I4P44GCR.js.map
+//# sourceMappingURL=home-4OP4ISH4.js.map
