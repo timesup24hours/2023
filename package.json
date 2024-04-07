@@ -15,6 +15,7 @@
   "type": "module",
   "dependencies": {
     "@faker-js/faker": "^8.4.1",
+    "@floating-ui/dom": "^1.6.3",
     "@revolist/revogrid": "^4.7.0-next.4",
     "bcrypt": "^5.0.1",
     "body-parser": "^1.20.2",

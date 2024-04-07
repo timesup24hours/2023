@@ -10,6 +10,7 @@ import{h as b}from"./chunk-O7IMYJUU.js";var h='header[role=banner] { height: 80p
     <huanlin-list-item value="dropdown">Dropdown</huanlin-list-item>
     <huanlin-list-item value="toast">Toast</huanlin-list-item>
     <huanlin-list-item value="modal">Modal</huanlin-list-item>
+    <huanlin-list-item value="tooltip">Tooltip</huanlin-list-item>
 
     <huanlin-list-item variant="presentation">Form</huanlin-list-item>
     <huanlin-list-item value="switch">Switch</huanlin-list-item>
@@ -686,13 +687,13 @@ import{h as b}from"./chunk-O7IMYJUU.js";var h='header[role=banner] { height: 80p
       btn1.popoverTargetElement = modal1
       btn1.popoverTargetAction = "toggle"; 
       btn1.addEventListener("click", e => {
-        modal1.showPopover()
+        modal1.open = true
       })
     })()
   </script>
-  <div class="template-item" style="overflow: hidden;">
+  <div class="template-item">
     <huanlin-button id="btn1">Open modal</huanlin-button>
-    <huanlin-modal popover>
+    <huanlin-modal>
       <div slot="title">Title</div>
       <p>Greetings, one and all!</p>
       <form method="dialog">
@@ -701,5 +702,23 @@ import{h as b}from"./chunk-O7IMYJUU.js";var h='header[role=banner] { height: 80p
     </huanlin-modal>
   </div>
 </template>
+
+<template name="tooltip">
+  <script>
+    (() => {
+    })()
+  </script>
+  <div class="template-item">
+    <huanlin-tooltip>
+      <huanlin-button slot="trigger">
+        Trigger
+      </huanlin-button>
+      <div>
+        This is a tooltip content
+      </div>
+      </huanlin-tooltip>
+    </huanlin-popover>
+  </div>
+</template>
 `;var R=class extends HTMLElement{constructor(){super();b(this,"willLoad",()=>{let l=document.createElement("style");l.innerHTML=h,this.innerHTML=m,this.appendChild(l);let t=this.querySelector("huanlin-list");t&&(t.addEventListener("click",this.showCase),t.addEventListener("keydown",a=>{[" ","Enter"].includes(a.key)&&this.showCase(a)}),this.showCase())});b(this,"showCase",l=>{let t=window.location.hash,[a,i]=t.split("?"),e=l&&l.target;if(e){let d=a+"?"+e.value;window.location.hash=d}let c=e?e.value:i||"heatmap",F=document.querySelector(`huanlin-list-item[value="${c}"]`),p=document.querySelector(`template[name="${c}"]`),u=F.textContent,n=this.querySelector("#show-room-per");if(c){let d=p;if(!d)return;let U=d.content.cloneNode(!0),G=d.content.querySelector("script"),V=document.querySelector("h1");V&&(V.innerHTML=u),n&&(n.innerHTML="",n.appendChild(U));let Z=n==null?void 0:n.querySelector("script");if(Z&&Z.remove(),G){let W=document.createElement("script");W.setAttribute("type","text/javascript"),W.innerHTML=G.text,n==null||n.appendChild(W)}this.handleSideList()}});b(this,"render",()=>{})}static get observedAttributes(){return[]}attributeChangedCallback(l,t,a){this.render()}handleSideList(){let l=document.querySelectorAll("h2"),t=document.querySelector("huanlin-list.side");t&&(t&&(t.innerHTML=""),l.forEach(a=>{let i=document.createElement("a");i.href=`#${a.id}`,i.dataset.id=`${a.id}`,i.innerHTML=a.textContent,t==null||t.appendChild(i)}))}connectedCallback(){this.classList.add("hydrated"),this.willLoad(),this.render(),this.addEventListener("click",l=>{if(l.target.tagName==="A"){l.preventDefault();let t=document.querySelector(`[id='${l.target.getAttribute("data-id")}']`);t&&t.scrollIntoView({behavior:"smooth",block:"start",inline:"nearest"})}})}disconnectedCallback(){}};export{R as default};
-//# sourceMappingURL=root-QFDFMJX5.js.map
+//# sourceMappingURL=root-YZGE3AWJ.js.map
