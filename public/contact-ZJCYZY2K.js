@@ -1,0 +1,8 @@
+import{h as l}from"./chunk-O7IMYJUU.js";var i="huanlin-contact { width: 100%; } /*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9Vc2Vycy9qYWNzdXJmaW5nL0Rlc2t0b3AvYXBwL2ZpcnN0L2Zyb250ZW5kL2NvbXBvbmVudHMvY29udGFjdC9pbmRleC5tb2R1bGUuc2NzcyIsIiUzQ2lucHV0JTIwY3NzJTIwdkExRzRwJTNFIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0VBQ0UsV0FBQTtBQ0NGIiwiZmlsZSI6InRvLmNzcyIsInNvdXJjZXNDb250ZW50IjpbImh1YW5saW4tY29udGFjdCB7XG4gIHdpZHRoOiAxMDAlO1xufSIsImh1YW5saW4tY29udGFjdCB7XG4gIHdpZHRoOiAxMDAlO1xufVxuLyojIHNvdXJjZU1hcHBpbmdVUkw9ZGF0YTphcHBsaWNhdGlvbi9qc29uO2NoYXJzZXQ9dXRmLTg7YmFzZTY0LGV5SjJaWEp6YVc5dUlqb3pMQ0p6YjNWeVkyVlNiMjkwSWpvaUwxVnpaWEp6TDJwaFkzTjFjbVpwYm1jdlJHVnphM1J2Y0M5aGNIQXZabWx5YzNRdlpuSnZiblJsYm1RdlkyOXRjRzl1Wlc1MGN5OWpiMjUwWVdOMElpd2ljMjkxY21ObGN5STZXeUpwYm1SbGVDNXRiMlIxYkdVdWMyTnpjeUpkTENKdVlXMWxjeUk2VzEwc0ltMWhjSEJwYm1keklqb2lRVUZCUVR0RlFVTkZJaXdpYzI5MWNtTmxjME52Ym5SbGJuUWlPbHNpYUhWaGJteHBiaTFqYjI1MFlXTjBJSHRjYmlBZ2QybGtkR2c2SURFd01DVTdYRzU5SWwxOSAqLyJdfQ== */";var n=`<div class="root conatct-info flex-center flex-column justify-center justify-center">
+  <div>\uFE0F\u3294 Name: Huanlin Huang</div>
+  <div>\u260E\uFE0F Phone: 415-361-9522</div>
+  <div>\u{1F4E7} Email: huanlinhuang@gmail.com</div>
+</div>
+<!-- <huanlin-pin-table></huanlin-pin-table> -->
+<!-- <huanlin-live-editor></huanlin-live-editor> -->`;var e=class extends HTMLElement{constructor(){super();l(this,"render",()=>{})}connectedCallback(){this.classList.add("hydrated");let t=document.createElement("style");t.innerHTML=i,this.innerHTML=n,this.appendChild(t),this.render();let p=document.querySelector("#banner-center #title")}};l(e,"localName","huanlin-contact");export{e as default};
+//# sourceMappingURL=contact-ZJCYZY2K.js.map
