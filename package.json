@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
+  "workspaces": [
+    "packages/*"
+  ],
   "scripts": {
     "start": "node server/server.js",
     "dev": "node esbuild.config.js",
